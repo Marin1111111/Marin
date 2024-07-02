@@ -404,6 +404,42 @@ text-decoration: none;
     margin: 20px 0;
 }
 
+.gallery1 {
+    margin-top: 100px;
+    column-count: 3; /* Number of columns */
+    column-gap: 13px; /* Gap between columns */
+    padding: 30px;
+}
+
+.gallery-item1 {
+    break-inside: avoid;
+    margin-bottom: 10px;
+}
+
+.gallery1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery1 {
+    margin-top: 100px;
+    column-count: 3; /* Number of columns */
+    column-gap: 13px; /* Gap between columns */
+    padding: 30px;
+}
+
+.gallery-item1 {
+    break-inside: avoid;
+    margin-bottom: 10px;
+}
+
+.gallery1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 #imp {
   display: flex;
   justify-content: center;
