@@ -447,6 +447,10 @@ text-decoration: none;
   margin-bottom: -5px;
 }
 
+#content p{
+  font-size: 1em;
+}
+
 #content1 {
   width: 53%;
   display: flex;
