@@ -467,6 +467,10 @@ text-decoration: none;
   margin-top: auto; /* 确保段文字在底部 */
 }
 
+.text1 p{
+  font-size: 1em;
+}
+
 #content1 h2 {
   font-weight: bold;
   font-size: 2.5em;
