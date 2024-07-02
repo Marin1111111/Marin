@@ -46,7 +46,8 @@ body {
 }
 
 #header h1{
-  margin-left: 1.5em;
+    margin-top: 1px;
+  margin-left: 2em;
   position: relative;
 }
 
