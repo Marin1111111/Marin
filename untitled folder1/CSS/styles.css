@@ -30,7 +30,7 @@ body {
 
 #header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding: 20px 0;
   position: fixed; /* 固定位置 */
  top: 0; /* 固定在顶部 */
@@ -46,7 +46,7 @@ body {
 }
 
 #header h1{
-  margin-right: 38em;
+  margin-left: 1.5em;
   position: relative;
 }
 
