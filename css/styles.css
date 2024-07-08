@@ -767,9 +767,14 @@ background-position: 80% 50%; /* 调整背景图像位置 */
     flex: 1 1 calc(100% - 10px); /* 使每个链接占据100%宽度减去间距 */
     max-width: calc(100% - 10px); /* 最大宽度为容器的100%减去间距 */
   }
+  .hero {
+        height: 50vh;
 
   @media (max-width: 480px) {
     #header h1 {
       margin-right: 0;
       text-align: center;
     }
+    .hero {
+        height: 30vh;
+      }
