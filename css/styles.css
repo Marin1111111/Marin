@@ -525,6 +525,9 @@ text-decoration: none;
     justify-content: center;
 }
 
+#images-s a:hover{
+ opacity: 60%;
+}
 
 .images-s img {
     width: 100%; /* 使图片宽度适应父容器 */
