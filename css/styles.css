@@ -525,7 +525,7 @@ text-decoration: none;
     justify-content: center;
 }
 
-#images-s a:hover{
+.images-s a:hover{
  opacity: 60%;
 }
 
