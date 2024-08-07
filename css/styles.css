@@ -171,10 +171,9 @@ body {
 }
 
 .single-image-right {
-  padding-left: 10%;
   padding-top: 7%;
   justify-content: flex-end;
-  gap: 14%;
+  gap: 18%;
   padding-bottom: 4%;
 }
 
