@@ -110,12 +110,14 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1%; /* 使用百分比来保持一致的间距比例 */
+  gap: 1%;
+  /* 使用百分比来保持一致的间距比例 */
   margin-top: 2%;
 }
 
 .images a {
-  flex: 0 0 23%; /* 固定宽度比例 */
+  flex: 0 0 23%;
+  /* 固定宽度比例 */
   margin-bottom: 1%;
 }
 
@@ -139,9 +141,11 @@ body {
 }
 
 .inside-images img {
-  width: calc(50% - 1%); /* 调整为使用百分比 */
+  width: calc(50% - 1%);
+  /* 调整为使用百分比 */
   height: auto;
-  border-radius: 3vw; /* 使用vw单位使圆角随屏幕大小变化 */
+  border-radius: 3vw;
+  /* 使用vw单位使圆角随屏幕大小变化 */
 }
 
 .oneline-image img {
@@ -192,7 +196,8 @@ footer {
 
 @media (max-width: 900px) {
   .images a {
-    flex: 0 0 31%; /* 三列布局 */
+    flex: 0 0 31%;
+    /* 三列布局 */
   }
 
   .content-container {
@@ -200,7 +205,8 @@ footer {
     align-items: center;
   }
 
-  .text-content, .image-content {
+  .text-content,
+  .image-content {
     flex: 0 0 90%;
     padding-left: 0;
     margin-bottom: 5%;
@@ -217,7 +223,8 @@ footer {
 
 @media (max-width: 600px) {
   .images a {
-    flex: 0 0 48%; /* 两列布局 */
+    flex: 0 0 48%;
+    /* 两列布局 */
   }
 
   .inside-images img {
@@ -235,7 +242,8 @@ footer {
 
 @media (max-width: 400px) {
   .images a {
-    flex: 0 0 98%; /* 单列布局 */
+    flex: 0 0 98%;
+    /* 单列布局 */
   }
 
   #main h1 {
@@ -247,7 +255,52 @@ footer {
   }
 }
 
+
+@media (max-width: 1000px) {
+  #header {
+    font-size: 1.8rem;
+    margin-right: 50px;
+    padding: 0;
+  }
+
+  #header a {
+    font-size: 1em;
+    font-family: 'Arial, sans-serif';
+
+  }
+
+  #main {
+    margin: 40% auto;
+    padding: 20px 65px;
+
+  }
+
   #main h2 {
-    font-size: 1.8em;
+    font-size: 80px;
+
+  }
+
+  #main h3 {
+    font-size: 65px;
+    padding-top: 25px;
+
+  }
+
+  #main h4 {
+    font-size: 52px;
+    padding-top: 25px;
+
+  }
+
+  #main h5 {
+    font-size: 50px;
+    padding-top: 25px;
+
+  }
+
+  #main a {
+    font-size: 50px;
+    padding-top: 25px;
+
   }
 }
